@@ -1,0 +1,145 @@
+/* * {
+	border: red solid;
+} */
+body {
+  font-family: Roboto, sans-serif;
+  font-kerning: normal;
+  margin: 0;
+  padding: 0; }
+
+div {
+  box-sizing: border-box; }
+
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+
+header {
+  height: 84px;
+  width: 100%;
+  background-color: #ffffff; }
+
+.menu {
+  display: -webkit-flex;
+  -webkit-justify-content: flex-end; }
+  .menu h3 {
+    letter-spacing: 0.5px;
+    color: #2c3e65;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-top: 33px; }
+
+.logo {
+  display: -webkit-flex;
+  margin-right: 570px; }
+  .logo h1 {
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 65px; }
+
+.plus {
+  color: #1abc9c; }
+
+.buy_now {
+  width: 100%;
+  background-color: #1abc9c; }
+  .buy_now .container {
+    display: -webkit-flex; }
+    .buy_now .container img {
+      position: sticky;
+      margin: 62px 0 62px 150px; }
+    .buy_now .container h1 {
+      letter-spacing: 1px;
+      font-size: 30px;
+      margin-top: 124px;
+      color: #ffffff;
+      font-weight: bold;
+      margin-left: 180px;
+      margin-bottom: 40px; }
+    .buy_now .container p {
+      color: #ffffff;
+      font-weight: 330;
+      font-size: 16px;
+      margin-left: 180px;
+      letter-spacing: 0.5px;
+      line-height: 16pt; }
+
+.button {
+  width: 140px;
+  padding: 10px 10px;
+  margin: 40px 0 0 180px;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-weight: 330;
+  letter-spacing: 0.5px;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center; }
+
+.advantages {
+  width: 100%;
+  background-color: #ffffff; }
+  .advantages .container {
+    display: -webkit-flex;
+    -webkit-justify-content: center; }
+
+.advantage {
+  margin: 62px 30px 62px 0; }
+  .advantage img {
+    margin-left: 120px; }
+  .advantage h1 {
+    letter-spacing: 0.5px;
+    color: #2c3e65;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder; }
+  .advantage p {
+    color: #2c3e65;
+    font-weight: 330;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 16pt;
+    text-align: center; }
+
+.contact {
+  width: 100%;
+  background-color: #1abc9c;
+  padding-bottom: 10px; }
+  .contact .button {
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 250px; }
+
+.title {
+  padding: 62px 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.type {
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 600px;
+  background-color: #ffffff;
+  color: #b0b0b0;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 5px; }
+
+.ask {
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 600px;
+  background-color: #ffffff;
+  color: #b0b0b0;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  padding: 5px 0 60px 5px; }
+
+/*# sourceMappingURL=css.css.map */

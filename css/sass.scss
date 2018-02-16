@@ -1,0 +1,176 @@
+$b-color1: #1abc9c;
+$b-color2: #ffffff;
+$t-color: #2c3e65;
+$padding: 62px;
+
+/* * {
+	border: red solid;
+} */ 
+
+body {
+	
+	font-family: Roboto, sans-serif;
+	font-kerning: normal;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	height: 84px;
+	width: 100%;
+	background-color: $b-color2;
+}
+
+.menu {
+	display: -webkit-flex;
+	-webkit-justify-content: flex-end;
+	h3 {
+		letter-spacing: 0.5px;
+		color: $t-color;
+		font-weight: normal;
+		font-size: 16px;
+		text-transform: uppercase;
+		margin-left: 70px;
+		margin-top: 33px;
+	}
+}
+
+.logo {
+	display: -webkit-flex;
+	margin-right: 570px; 
+	h1 {
+		letter-spacing: 4px;
+		margin: 0;
+		padding: 0;
+		font-weight: 500;
+		font-size: 65px;
+	}
+}
+
+.plus {
+	color: $b-color1;
+}
+
+.buy_now {
+	width: 100%;
+	background-color: $b-color1;
+	.container {
+		display: -webkit-flex;
+		img {
+			position: sticky;
+			margin: $padding 0 $padding 150px;
+		}
+		h1 {
+			letter-spacing: 1px;
+			font-size: 30px;
+			margin-top: $padding * 2;
+			color: $b-color2;
+			font-weight: bold;
+			margin-left: 180px;
+			margin-bottom: 40px;
+		}
+		p {
+			color: $b-color2;
+			font-weight: 330;
+			font-size: 16px;
+			margin-left: 180px;
+			letter-spacing: 0.5px;
+			line-height: 16pt;
+		}
+	} 
+}
+
+.button {
+	width: 140px;
+	padding: 10px 10px;
+	margin: 40px 0 0 180px;
+	border: 2px solid white;
+	border-radius: 6px;
+	font-weight: 330;
+	letter-spacing: 0.5px;
+	font-size: 25px;
+	color: $b-color2;
+	text-align: center;
+}
+
+.advantages {
+	width: 100%;
+	background-color: $b-color2;
+	.container {
+		display: -webkit-flex;
+		-webkit-justify-content: center;
+	} 
+}
+
+.advantage {
+	margin: $padding 30px $padding 0;
+	img {
+		margin-left: 120px;
+	}
+	h1 {
+		letter-spacing: 0.5px;
+		color: $t-color;
+		font-size: 20px;
+		text-align: center;
+		font-weight: bolder;
+	}
+	p {
+		color: $t-color;
+		font-weight: 330;
+		font-size: 16px;
+		letter-spacing: 0.5px;
+		line-height: 16pt;
+		text-align: center;
+	}
+}
+
+.contact {
+	width: 100%;
+	background-color: $b-color1;
+	padding-bottom: 10px;
+	.button {
+		display: block;
+    	margin: 50px auto 50px auto;
+		width: 250px;
+	}
+}
+
+.title {
+	padding: $padding 0;
+	color: $b-color2;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.type {
+	display: block;
+    margin: 0 auto 10px auto;
+	width: 600px;
+	background-color: $b-color2;
+	color: #b0b0b0;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	padding: 5px;
+}
+
+.ask {
+	display: block;
+    margin: 0 auto 10px auto;
+	width: 600px;
+	background-color: $b-color2;
+	color: #b0b0b0;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	padding: 5px 0 60px 5px;
+}
